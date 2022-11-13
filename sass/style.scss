@@ -1,0 +1,107 @@
+@use 'colors' as *;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.5rem;
+	font-family: 'Poppins', sans-serif;
+	background-color: $very-light-gray;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.header {
+	padding: 4em 1em;
+	text-align: center;
+	color: $very-dark-blue;
+
+	&__heading {
+		font-size: 2.5rem;
+		font-weight: lighter;
+	}
+
+	&__technology {
+		margin-top: 0.2em;
+		font-size: 2.5rem;
+	}
+
+	&__paragraph {
+		margin-top: 1em;
+		color: $grayish-blue;
+	}
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.section {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 2em;
+		padding: 1.5em;
+		width: 300px;
+		background-color: $white;
+		border-radius: 8px;
+		box-shadow: 0 5px 15px $grayish-blue;
+
+		&--cyan {
+			border-top: 3.5px solid $cyan;
+		}
+
+		&--red {
+			border-top: 3.5px solid $red;
+		}
+
+		&--orange {
+			border-top: 3.5px solid $orange;
+		}
+
+		&--blue {
+			border-top: 3.5px solid $blue;
+		}
+
+		&__heading {
+			font-size: 1.9rem;
+			color: $very-dark-blue;
+		}
+
+		&__paragraph {
+			margin-top: 0.5em;
+			color: $grayish-blue;
+		}
+
+		&__img {
+			margin: 1em;
+			height: 64px;
+			width: 64px;
+			align-self: end;
+		}
+	}
+}
+
+.attribution {
+	font-size: 1.1rem;
+	text-align: center;
+    margin-bottom: 3em;
+
+	a {
+		color: hsl(228, 45%, 44%);
+        text-decoration: none;
+	}
+}
+
+@import 'medium';
+@import 'large';

@@ -1,0 +1,19 @@
+@media(min-width: 992px) {
+    .header {
+        padding-top: 6em;
+    }
+
+    .main {
+        flex-direction: row;
+        justify-content: center;
+
+        .section {
+            margin: 1em;
+            padding: 2em;
+
+            &__img {
+                margin-top: 2em;
+            }
+        }
+    }
+}

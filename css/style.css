@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header {
+  padding: 4em 1em;
+  text-align: center;
+  color: hsl(234deg, 12%, 34%);
+}
+.header__heading {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.header__technology {
+  margin-top: 0.2em;
+  font-size: 2.5rem;
+}
+.header__paragraph {
+  margin-top: 1em;
+  color: hsl(229deg, 6%, 66%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  width: 300px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 8px;
+  box-shadow: 0 5px 15px hsl(229deg, 6%, 66%);
+}
+.main .section--cyan {
+  border-top: 3.5px solid hsl(180deg, 62%, 55%);
+}
+.main .section--red {
+  border-top: 3.5px solid hsl(0deg, 78%, 62%);
+}
+.main .section--orange {
+  border-top: 3.5px solid hsl(34deg, 97%, 64%);
+}
+.main .section--blue {
+  border-top: 3.5px solid hsl(212deg, 86%, 64%);
+}
+.main .section__heading {
+  font-size: 1.9rem;
+  color: hsl(234deg, 12%, 34%);
+}
+.main .section__paragraph {
+  margin-top: 0.5em;
+  color: hsl(229deg, 6%, 66%);
+}
+.main .section__img {
+  margin: 1em;
+  height: 64px;
+  width: 64px;
+  align-self: end;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 3em;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .header__heading, .header__technology {
+    font-size: 3.5rem;
+  }
+  .header__paragraph {
+    margin-top: 1.5em;
+    font-size: 1.7rem;
+  }
+  .main .section {
+    width: 350px;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    padding-top: 6em;
+  }
+  .main {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main .section {
+    margin: 1em;
+    padding: 2em;
+  }
+  .main .section__img {
+    margin-top: 2em;
+  }
+}/*# sourceMappingURL=style.css.map */
