@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/katrine9176/four-card-feature-section-Frontendmentor)
+- Live Site URL: [Live site URL](https://katrine9176.github.io/four-card-feature-section-Frontendmentor/)
 
 ## My process
 
