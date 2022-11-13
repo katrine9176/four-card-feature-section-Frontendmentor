@@ -1,18 +1,24 @@
 @media (min-width: 768px) {
-    .header {
-        &__heading, &__technology {
-            font-size: 3.5rem;
-        }
+	.header {
+		display: flex;
+		flex-direction: column;
 
-        &__paragraph {
-            margin-top: 1.5em;
-            font-size: 1.7rem;
-        }
-    }
+		&__heading,
+		&__technology {
+			font-size: 3.5rem;
+		}
 
-    .main {
-        .section {
-            width: 350px;
-        }
-    }
+		&__paragraph {
+			margin-top: 1.5em;
+			font-size: 1.7rem;
+			align-self: center;
+			width: 600px;
+		}
+	}
+
+	.main {
+		.section {
+			width: 350px;
+		}
+	}
 }

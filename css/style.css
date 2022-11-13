@@ -90,12 +90,18 @@ body {
 }
 
 @media (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
   .header__heading, .header__technology {
     font-size: 3.5rem;
   }
   .header__paragraph {
     margin-top: 1.5em;
     font-size: 1.7rem;
+    align-self: center;
+    width: 600px;
   }
   .main .section {
     width: 350px;
